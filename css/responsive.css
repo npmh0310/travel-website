@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px) {
+    .header-title p{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .header-title h1{
+        font-size: 4rem;
+    }
+    .header-form form{ 
+        align-items: stretch;
+        flex-direction: row;
+    }
+    .header-form .form-control, .header-form .btn{
+        margin: 0 0.5rem;
+    }
+    #navbar-show-btn{
+        display: none;
+    }
+    #navbar-collapse{
+        display: block!important;
+        background-color: transparent;
+        transform: translateX(0)!important;
+        height: auto;
+        position: static;
+        padding: 0;
+        width: 100%;
+        flex-direction: row;
+    }
+    #navbar-close-btn{
+        display: none;
+    }
+    .navbar-nav{
+        display: flex;
+        justify-content: flex-end;
+        margin: 0
+    }
+    .nav-item{
+        
+        margin-left: 2rem;
+    }
+}
